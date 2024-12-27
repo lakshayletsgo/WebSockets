@@ -18,7 +18,7 @@ It is somewhat similar to polling only in this we wait for the request to get ac
 
 
 ### Types of Websockets implementation
-Socket io ==> It is very least used websocket implementation because it is harder to support multiple platforms. It is still used many places because it is very beginner-friendly. But we will avoid using it. \ 
+Socket io ==> It is very least used websocket implementation because it is harder to support multiple platforms. It is still used many places because it is very beginner-friendly. But we will avoid using it. \
 npmjs/websockets ==> It is very good and the core of the websockets. We will use this or the other websocket but not the socket io. \
 websockets/we ==> It is also the core and very good in words of implementation. We will use this in this learning journey
 
