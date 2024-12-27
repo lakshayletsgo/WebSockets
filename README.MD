@@ -1,6 +1,6 @@
 ## WebSockets
 Websockets are a type of protocol to communicate. It helps to maintain a persistent connection between client and server. \
-Persistent are connection that are consistent \
+Persistent are connection that are consistent. \
 A normal http connection is not persistent as it will again and again ask the server request for some data while an websockets maintains a connection and send and reccieve over it. \
 Websockets are used mostly where we want to deal in real time data. \ 
 Otherwise we have to send request again and again, wait for its response. \
@@ -9,7 +9,7 @@ This will create inconsistency in our server and overhead willl increase. \
 #### Polling
 The other concept that is used in leetcode to maintain a connection with the server is polling.
 In this we again and again send requests to the server like after every second we send a request to check if the data is present or not.
-It is not that much helpful in the server where the data requested is huge like on a cryptocurrency website. They would need to get update of every coin every seconds. They need to send numerous ammount of reqeust to the server which is not good at all. So they maintain a WebSocket connection\
+It is not that much helpful in the server where the data requested is huge like on a cryptocurrency website. They would need to get update of every coin every seconds. They need to send numerous ammount of reqeust to the server which is not good at all. So they maintain a WebSocket connection. \
 ![alt text](image.png)
 
 #### Long Polling
@@ -19,7 +19,7 @@ It is somewhat similar to polling only in this we wait for the request to get ac
 
 ### Types of Websockets implementation
 Socket io ==> It is very least used websocket implementation because it is harder to support multiple platforms. It is still used many places because it is very beginner-friendly. But we will avoid using it.\ 
-npmjs/websockets ==> It is very good and the core of the websockets. We will use this or the other websocket but not the socket.io \
+npmjs/websockets ==> It is very good and the core of the websockets. We will use this or the other websocket but not the socket.io. \
 websockets/we ==> It is also the core and very good in words of implementation. We will use this in this learning journey
 
 
