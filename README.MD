@@ -13,7 +13,7 @@ It is not that much helpful in the server where the data requested is huge like 
 ![alt text](image.png)
 
 #### Long Polling
-It is somewhat similar to polling only in this we wait for the request to get accepted like whenever the server has the response it can send untill it will wait in another http request
+It is somewhat similar to polling only in this we wait for the request to get accepted like whenever the server has the response it can send untill it will wait in another http request.
 ![alt text](image-1.png)
 
 
