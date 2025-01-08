@@ -27,3 +27,22 @@ websockets/we ==> It is also the core and very good in words of implementation. 
 We first kick thing by initailizing a npm enviroment by just 
     npm init -y
 
+Then we need to initialise the type script enviroment by just
+    npx tsc --init
+
+Then we need to update the tsconfig.json so that the output of the build is in root dir
+    "rootDir":"./src"
+    "outDir":"./dist"
+
+Then we need to add the ws library
+    npm i ws @types/ws
+
+Then we need to add some code which is in src/index.ts
+Go through the code and understand it.
+
+To start the server run the build command that goes like this
+    tsc -b
+
+Then we run the build product 
+    node dist/index.js
+As we have stored the data in the dist folder
